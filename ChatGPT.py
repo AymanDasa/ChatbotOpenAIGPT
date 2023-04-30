@@ -3,7 +3,7 @@ class TxtColor:
 	GREEN = '\033[92m'
 	ENDC = '\033[0m' 
 # Set OpenAI API key
-user_api = input()
+user_api = input("API:")
 openai.api_key = user_api
 # Initialize message list
 ChatMessages = []  
